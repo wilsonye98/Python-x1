@@ -5,7 +5,7 @@
 def print_squared_numbers():
     lst = []
     for num in  range(1,21):
-        lst.append(num)
+        lst.append(num ** 2)
         print(num ** 2)
     return lst
 
